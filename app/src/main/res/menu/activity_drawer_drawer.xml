@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/home_icon"
+            android:title="@string/dashboard_text_Place_holder" />
+        <item
+            android:id="@+id/timetable"
+            android:icon="@drawable/timetable_icon"
+            android:title="@string/timetable_hint" />
+        <item
+            android:id="@+id/attendance"
+            android:icon="@drawable/attendance_icon"
+            android:title="@string/attendance_hing" />
+        <item
+            android:id="@+id/comments"
+            android:icon="@drawable/comments_icon"
+            android:title="@string/comments_place" />
+        <item
+            android:id="@+id/maps"
+            android:icon="@drawable/map_icon"
+            android:title="@string/maps" />
+        <item
+            android:id="@+id/fireBase"
+            android:icon="@drawable/notifications_icon"
+            android:title="@string/fireBase_text" />
+    </group>
+
+</menu>
